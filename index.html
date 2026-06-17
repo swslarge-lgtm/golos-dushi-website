@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Голос Душі | Студія вокалу та івент-агенція</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-pink: #FF1493; /* Колір з логотипу */
+            --brand-black: #1A1A1A;
+        }
+        body { font-family: 'Montserrat', sans-serif; }
+        .font-script { font-family: 'Playfair Display', serif; font-style: italic; }
+        .bg-pink-brand { background-color: var(--brand-pink); }
+        .text-pink-brand { color: var(--brand-pink); }
+        .border-pink-brand { border-color: var(--brand-pink); }
+        
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold tracking-tighter uppercase">Голос <span class="text-pink-brand italic font-script lowercase">душі</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-wider">
+                <a href="#services" class="hover:text-pink-brand transition">Послуги</a>
+                <a href="#about" class="hover:text-pink-brand transition">Про нас</a>
+                <a href="#contact" class="hover:text-pink-brand transition">Контакти</a>
+            </nav>
+            <a href="https://www.instagram.com/voice_of_soul_event/" target="_blank" class="bg-pink-brand text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-black transition">
+                INSTAGRAM
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Block -->
+    <section class="hero-gradient h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-3xl">
+            <p class="uppercase tracking-[0.3em] mb-4 text-sm md:text-base">Студія вокалу та організація свят</p>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Розкрий силу свого <span class="text-pink-brand italic font-script">голосу</span></h1>
+            <p class="text-lg md:text-xl mb-10 text-gray-200">Професійне навчання вокалу, запис пісень та організація незабутніх подій у Києві.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#booking" class="bg-pink-brand hover:bg-white hover:text-pink-brand text-white px-8 py-4 rounded-full font-bold transition duration-300">
+                    Записатися на урок
+                </a>
+                <a href="#services" class="border-2 border-white hover:bg-white hover:text-black text-white px-8 py-4 rounded-full font-bold transition duration-300">
+                    Наші послуги
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Block -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Наші напрямки</h2>
+                <div class="h-1 w-20 bg-pink-brand mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition group">
+                    <div class="w-16 h-16 bg-pink-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pink-brand transition">
+                        <svg class="w-8 h-8 text-pink-brand group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Уроки вокалу</h3>
+                    <p class="text-gray-600">Індивідуальні заняття для дітей та дорослих. Постановка дихання, розширення діапазону.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition group border-t-4 border-pink-brand">
+                    <div class="w-16 h-16 bg-pink-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pink-brand transition">
+                        <svg class="w-8 h-8 text-pink-brand group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Організація івентів</h3>
+                    <p class="text-gray-600">Створення концепції, підбір артистів та повний супровід вашого свята під ключ.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition group">
+                    <div class="w-16 h-16 bg-pink-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pink-brand transition">
+                        <svg class="w-8 h-8 text-pink-brand group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Запис у студії</h3>
+                    <p class="text-gray-600">Запис пісні в подарунок, професійне зведення та майстерінг вашого вокалу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Block -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&q=80&w=800" alt="Vocal Class" class="rounded-2xl shadow-2xl">
+                    <div class="absolute -bottom-6 -right-6 bg-pink-brand text-white p-6 rounded-2xl hidden md:block">
+                        <p class="text-4xl font-bold">10+</p>
+                        <p class="text-sm uppercase tracking-widest">Років досвіду</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 italic font-script text-pink-brand">Чому обирають нас?</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-pink-brand text-xl">✓</span>
+                        <div>
+                            <span class="font-bold">Індивідуальний підхід.</span> Ми розробляємо програму під ваші цілі та музичні смаки.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-pink-brand text-xl">✓</span>
+                        <div>
+                            <span class="font-bold">Професійна сцена.</span> Можливість виступати на звітних концертах студії.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-pink-brand text-xl">✓</span>
+                        <div>
+                            <span class="font-bold">Затишна атмосфера.</span> Сучасна студія в центрі міста зі всім необхідним обладнанням.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="booking" class="py-20 bg-black text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8">Готові заспівати на повну?</h2>
+            <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Залиште заявку на пробне заняття і зробіть перший крок до своєї мрії вже сьогодні.</p>
+            <form class="max-w-md mx-auto space-y-4">
+                <input type="text" placeholder="Ваше ім'я" class="w-full px-6 py-4 rounded-full bg-white/10 border border-white/20 focus:outline-none focus:border-pink-brand">
+                <input type="tel" placeholder="Номер телефону" class="w-full px-6 py-4 rounded-full bg-white/10 border border-white/20 focus:outline-none focus:border-pink-brand">
+                <button class="w-full bg-pink-brand hover:bg-white hover:text-black text-white py-4 rounded-full font-bold transition duration-300">
+                    ЗАПИСАТИСЯ
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <footer id="contact" class="py-16 bg-gray-50 border-t border-gray-200">
+        <div class="container mx-auto px-4 grid md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <h3 class="text-2xl font-bold mb-6 uppercase italic font-script">Голос <span class="text-pink-brand">душі</span></h3>
+                <p class="text-gray-600">Студія, де кожен голос знаходить свій шлях. Творимо музику та емоції разом.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-widest">Контакти</h4>
+                <p class="text-gray-600 mb-2">м. Київ, Україна</p>
+                <p class="text-gray-600 mb-2">+38 (0XX) XXX XX XX</p>
+                <p class="text-gray-600">info@voiceofsoul.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-widest">Ми в соцмережах</h4>
+                <div class="flex justify-center md:justify-start gap-4">
+                    <a href="https://www.instagram.com/voice_of_soul_event/" class="text-pink-brand hover:text-black transition text-3xl">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-16 pt-8 border-t border-gray-200 text-center text-sm text-gray-400">
+            &copy; 2024 Голос Душі. Всі права захищені.
+        </div>
+    </footer>
+
+</body>
+</html>
